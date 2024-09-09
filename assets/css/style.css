@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background-color: #0779E4;
+}
+
+.nav_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.text-white{
+    color: white;
+}
+
+
+.hero{
+    background-image: url(../images/hero_bg.png);
+    padding-left: 10%;
+    /* dot dot slash-outside the css folder vs dot slash-inside the css folder. There's also ../../-go out and go out again */
+    height: 100vh;
+    background-size: cover;
+}
+.hero_info{
+    height: 60vh;
+padding-top: 10%;
+ width: 50% ;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.title{
+    font-size: 50px;
+}
+.btn{
+    height: 53px;
+    padding: 16px 24px;
+    border-radius: 4px;
+}
+.btn_blue{
+    background-color: blue;
+    color:white;
+}
+.btn_white{
+    background-color: white;
+    color: blue;
+}
