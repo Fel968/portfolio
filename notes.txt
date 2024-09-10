@@ -1,0 +1,143 @@
+Using git:
+command for checking git version: git -v or git--version
+command for  initialising: git init(done only once on new projects)
+read- how to delete git if you made a mistake
+linking project with git:
+use add command. format: git add + file name 
+commit after adding use comand (git commit + -m ""add a message describing your changes here)
+*branching in git*
+
+Github with Michael: Monday 9th September
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'felis@Fel.(none)')
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git commit -m "Added index.html"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'felis@Fel.(none)')
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> get config
+get : The term 'get' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ get config
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (get:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git config
+error: no action specified
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git config user.email "felicitysemetey628@gmail.com"  
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git user.name "Felicity Semetey"
+git: 'user.name' is not a git command. See 'git --help'.
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git commit -m "Added index.html"
+[master (root-commit) 0de8bb3] Added index.html
+ 1 file changed, 47 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git log
+commit 0de8bb3c725971c8855968a269925043e9297e95 (HEAD -> master)
+Author: Felicity Semetey <felicitysemetey628@gmail.com>
+Date:   Mon Sep 9 10:12:11 2024 +0000
+
+    Added index.html
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2>
+
+                                                   > git add .
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   assets/css/reset.css
+        new file:   assets/css/style.css
+        new file:   assets/images/about_image.png
+        new file:   assets/images/hero_bg.png
+
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2> git commit -m "Adding CSS"
+[master c7a8d02] Adding CSS
+ 4 files changed, 56 insertions(+)
+ create mode 100644 assets/css/reset.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/images/about_image.png
+ create mode 100644 assets/images/hero_bg.png
+PS C:\Users\felis\OneDrive\web_projects\portfolio_2>
+
+use push commands from github to push files to github:
+
+Tuesday,10th September
+how to use span properly(USE SPAN TO ARRANGE TEXT INLINE)
+inline and block elements
+HOW TO USE TAILWIND CSS IN HTML 
+difference between justify items and justify content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+Using git:
+command for checking git version: git -v or git--version
+command for  initialising: git init(done only once on new projects)
+read- how to delete git if you made a mistake
+linking project with git:
+use add command. format: git add + file name 
+commit after adding use comand (git commit + -m ""add a message describing your changes here)
+*branching in git*
