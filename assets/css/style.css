@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -5,6 +9,9 @@ nav {
     height: 70px;
     align-items: center;
     background-color: #0779E4;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .nav_items {
@@ -48,4 +55,14 @@ justify-content: space-between;
 .btn_white{
     background-color: white;
     color: blue;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;   
+ }
+.about_us_image{
+    background-image: url(../images/about.jpg);
+    background-position: center;
+    background-size: cover;
 }

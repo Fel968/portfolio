@@ -92,7 +92,7 @@ difference between justify items and justify content
 how to merge different versions of code with git
 read about pull request
 
-
+fetch command in git
 
 
 

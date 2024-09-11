@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <h4 class="text-white">FC.Semetey</h4>
-        <div class="nav_items">
-            <a class="text-white"href="#">Home</a>
-            <a class="text-white"href="#">About</a>
-            <a class="text-white"href="#">Services</a>
-            <a class="text-white"href="#">Portfolio</a>
-            <a class="text-white"href="#">Pricing</a>
-            <a class="text-white"href="#">Blog</a>
-            <a class="text-white"href="#">Contact</a>
-        </div>
+      <h4 class="text-white">FC.Semetey</h4>
+      <div class="nav_items">
+        <a class="text-white" href="#">Home</a>
+        <a class="text-white" href="#">About</a>
+        <a class="text-white" href="#">Services</a>
+        <a class="text-white" href="#">Portfolio</a>
+        <a class="text-white" href="#">Pricing</a>
+        <a class="text-white" href="#">Blog</a>
+        <a class="text-white" href="#">Contact</a>
+      </div>
     </nav>
     <!-- shortcut for comments: ctrl+/ hero starts here -->
     <section class="hero">
-        <div class="hero_info">
-            <p>Hi there!</p>
-            <h1 class="title text-white">I am <span>Felicity Semetey</span></h1>
-            <h1 class="title text-white">A Web Developer</h1>
-            <p class="text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-                <div>
-                    <!-- alt+arrow key moves code up or down -->
-                   <button class="btn btn_blue">Hire Me</button>
-                    <button class="btn btn_white">View Portfolio</button>
-                </div>
+      <div class="hero_info">
+        <p>Hi there!</p>
+        <h1 class="title text-white">I am <span>Felicity Semetey</span></h1>
+        <h1 class="title text-white">A Web Developer</h1>
+        <p class="text-white">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        </p>
+        <div>
+          <!-- alt+arrow key moves code up or down -->
+          <button class="btn btn_blue">Hire Me</button>
+          <button class="btn btn_white">View Portfolio</button>
         </div>
+      </div>
     </section>
     <!-- hero section ends here -->
     <!-- background image on hero page will be done in css -->
     <!-- about me section starts here -->
-    <section class="flex flex-row justify-around w-[80%] mx-auto mt-[128px]">  <!--use mx-auto(margin) to share space  mt=margin top-->
-        <div class="w-[40%]"> <!--syntax for width in tailwind-->
-            <img src="assets/images/about.jpg" alt="A picture of myself">
-                    <!-- image will be resized with css -->
+    <section class="flex flex-row justify-around w-[80%] mx-auto mt-[128px]">
+      <!--use mx-auto(margin) to share space  mt=margin top-->
+      <div class="w-[40%]">
+        <!--syntax for width in tailwind-->
+        <div class="w-full h-[600px] about_us_image"></div>
+        <!-- image will be resized with css -->
+      </div>
+      <div class="w-[40%] about_us">
+        <div>
+          <span>ABOUT ME</span>
+          <span>SKILLS</span>
+          <span>EXPERIENCE</span>
         </div>
-         <div class="w-[40%]">
-            <div>
-                <span>ABOUT ME</span>
-                <span>SKILLS</span>
-                <span>EXPERIENCE</span>
-            </div>
-                <h2>My Story</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <h2>I Do Web Design & Developement since I was 18 Years Old</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-         </div>
+        <h2>My Story</h2>
+            <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated they
+                live in Bookmarksgrove right at the coast of the Semantics, a large
+                language ocean.
+              </p>
+              <h3>I Do Web Design & Developement since I was 18 Years Old</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
