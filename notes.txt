@@ -89,6 +89,9 @@ inline and block elements
 HOW TO USE TAILWIND CSS IN HTML 
 difference between justify items and justify content
 
+how to merge different versions of code with git
+read about pull request
+
 
 
 
